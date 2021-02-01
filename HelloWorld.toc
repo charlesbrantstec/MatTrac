@@ -1,0 +1,6 @@
+## Interface: 90002
+## Title: HelloWorld
+## Author: Charles Brant-Stec
+## Version: 0.0.1
+
+HelloWorld.lua
