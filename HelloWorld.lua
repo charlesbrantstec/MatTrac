@@ -1,1 +1,5 @@
-message("Hello, World!")
+
+
+local name = UnitName("player")
+
+message("Hello, " .. name .. "!")
