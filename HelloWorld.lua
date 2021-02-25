@@ -1,5 +1,13 @@
+SLASH_HELLO1 = "/helloworld"
+SLASH_HELLO2 = "/hellow"
 
 
-local name = UnitName("player")
+local function HelloWorldHandler(name)
 
-message("Hello, " .. name .. "!")
+    message("Hello, " .. name .. "!")
+end
+
+-- local name = UnitName("player")
+-- message("Hello, " .. name .. "!")
+
+SlashCmdList["HELLO"] = HelloWorldHandler
